@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+header{
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(banner.jpg);
+}
+aside {
+    width: 150px;
+    background-color: rgba(7,200,248,1.00);
+    float: left;
+    color: rgba(255,255,255,1);
+    height: 2600px;
+}
+main{
+    width: 618px;
+    background-color: rgba(0,0,0,1.00);
+    float: left;
+    color: rgba(255,255,255,1.00);
+    background-size: auto;
+    height: 2600px;
+}
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: rgba(55,0,127,1.00);
+    clear: both;
+    color: rgba(255,255,255,1);
+}
+#container {
+    color: rgba(0,0,0,1);
+	width: 768px;
+	margin: auto;
+}
+body {
+    width: auto;
+	margin:
+    float: left;
+    background-image: url(background2.jpg);
+    background-repeat: repeat;
+    background-position: 0;
+    background-color: rgba(0,0,0,1.00);
+	height: 1200px;
+}
+p {
+    float: none;
+    clear: both;
+    padding-left: 5px;
+}
+h1 {
+    padding-left: 5px;
+}
+img {
+    float: right;
+}
+nav {
+    width: 768px;
+    height: 50px;
+    background-color: rgba(0,0,0,1.00);
+}
+#container nav li {
+    display: block;
+    margin: 0px 40px 0px 0px;
+    width: 65px;
+    float: left;
+}
+#container nav ul {
+    margin: auto;
+    width: 420px;
+}
+a {
+    color: rgba(255,255,255,1.00);
+    font-size: 20px;
+    width: 768px;
+	
+}

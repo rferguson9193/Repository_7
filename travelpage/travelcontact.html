@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<link href="travel.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	a:link {
+    color: rgba(1,202,245,1);
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+    </style>
+</head>
+
+<body>
+<div id="container">
+  <header></header>
+  <nav>
+	  <ul> <li><a href="travelabout.html">About</a></li>
+		  <li><a href="travelpage.html">Blog</a></li>
+		  <li><a href="travelcontact.html">Contact</a></li>
+		  <li><a href="pictures.html">Pictures</a></li>
+	  </ul>
+	
+  </nav>
+  <aside>Welcome to Ferguson Travel's page! Here you can read about trips we've been on and recommend!</aside>
+ 	
+  <main>
+	   <h1>Contact Me</h1>
+    <form>
+	  <p>Your Name: <input name="user_name" type="text" id="user_name" value="First and Last Name Please" size="50"></p>
+	  <p>Your Email: <input name="user_email" type="email" id="user_email" size="50"></p>
+	  <p>Leave a message:<br><textarea name="user_comment" cols="65" rows="10" id="user_comment"></textarea></p>
+	  <p>How did you hear about this blog?<br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+		    Search Engine</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+		    Social Media</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2">
+		    Friend</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3">
+	    Business Card</label>
+		  <br>
+		  <input type="submit" class="submit_btn" formaction="comment-box.php" formmethod="POST" value="Send">
+	  </p>
+		
+    </form>
+	  
+  </main>
+  <footer>Ferguson Travel 2023
+    <p></p>
+  </footer>
+
+</div>
+</body>
+</html>
